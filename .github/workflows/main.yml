@@ -12,7 +12,6 @@ on:
 jobs:
   ClockIn:
     runs-on: ubuntu-latest
-    if: True
     steps:
       - name: Checkout
         uses: actions/checkout@master
